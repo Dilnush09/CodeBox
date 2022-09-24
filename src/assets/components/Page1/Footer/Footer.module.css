@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container {
+    width: 100%;
+    height: 120px;
+    background-color: #093845;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+.Container {
+    position: fixed;
+}
+.Context img {
+    width: 200px;
+    height: 60px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.Context p:nth-child(2) {
+    color: #859FA5;
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.Main {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -300px;
+    margin-top: -20px;
+}
+.Main a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.Main h4:nth-child(5) {
+    margin-left: 300px;
+    margin-top: 20px;
+    color: #7B979D;
+}
+.Main h4:nth-child(6) {
+    margin-top: 20px;
+    color: #7B979D;
+}
+.Main h4:nth-child(7) {
+    margin-top: 20px;
+    color: #7B979D;
+}
+.Main h4:nth-child(8) {
+    margin-top: 20px;
+    color: #7B979D;
+}

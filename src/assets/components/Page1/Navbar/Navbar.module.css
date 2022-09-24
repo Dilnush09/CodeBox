@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -20px;
+    background-color: white;
+}
+.Container {
+    position: fixed;
+}
+.Content a {
+    font-size: 18px;
+    margin-left: -150px;
+    color: black;
+}
+
+.Content img {
+    width: 170px;
+    height: 40px;
+}
+
+.Main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.Main a{
+    text-decoration: none;
+}
+
+.Language select {
+    border: 1px solid white;
+}
+
