@@ -11,8 +11,8 @@
 }
 .loader h2 {
     margin-top: 30px;
-display: flex;
-flex-direction: column ;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
 }

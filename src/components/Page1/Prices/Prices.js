@@ -1,7 +1,7 @@
 import React from "react";
-import style from "../Box2/Box2.module.css";
+import style from "../Prices/Prices.module.css";
 
-export default function Box2js() {
+export default function Prices() {
     return (
         <div className={style.Container}>
             <h1>Salom</h1>

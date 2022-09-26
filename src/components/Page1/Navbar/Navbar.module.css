@@ -13,10 +13,8 @@
     margin-left: -20px;
     background-color: white;
 }
-.Container {
-    position: fixed;
-}
 .Content a {
+    margin: 0px 10px;
     font-size: 18px;
     margin-left: -150px;
     color: black;
@@ -32,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 10px;
+    margin-left: 150px;
 }
 .Main a{
     text-decoration: none;
@@ -42,3 +40,12 @@
     border: 1px solid white;
 }
 
+.Language button {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #32eab9;
+    border-radius: 5px;
+    background-color: #32eab9;
+    color: white;
+    margin-left: 50px;
+}

@@ -21,6 +21,7 @@ export default function Navbarjs() {
                     <option value="">Русский язык</option>
                     <option value="">English laungage</option>
                 </select>
+                <button>Ro'yxatdan o'tish</button>
             </div>
         </div>
         </Container>

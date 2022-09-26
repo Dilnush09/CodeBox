@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../Box2/Box2.module.css";
+import style from "../Programming languages/Programming.module.css";
 
 export default function Box2js() {
     return (
