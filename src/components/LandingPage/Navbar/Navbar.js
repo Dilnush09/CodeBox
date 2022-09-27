@@ -1,31 +1,42 @@
 import React from "react";
-import style from "../Navbar/Navbar.module.css"
+import style from "../Navbar/Navbar.module.css";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
-import Logotip from "../Navbar/Group@2x.jpg"
+import { Link, Outlet, useNavigate } from "react-router-dom";
+import Logotip from "../Navbar/Group@2x.jpg";
+import { navbarMain } from "../../util/navbarMain";
 
 export default function Navbarjs() {
-    return (
-        <>
-        <Navbar className={style.Container}>
+  const navigate = useNavigate();
+  const GotoProfile = () => {
+    navigate("/profile");
+  };
+  const LogOut = () => {
+    localStorage.removeItem("token");
+    navigate("/home");
+  };
+  return (
+    <>
+      <Navbar className={style.Container}>
         <Container className={style.Content}>
-            <img src={Logotip} />
-          <div className={style.Main}>
-            <Link to="/home">Loyiha haqida</Link>
-            <Link to="/tillar">Dasturlash tillari</Link>
-            <Link to="/narxlar">Narxlar</Link>
-            <div className={style.Language}>
-                <select>
-                    <option value="">O'zbek tili</option>
-                    <option value="">Русский язык</option>
-                    <option value="">English laungage</option>
-                </select>
-                <button>Ro'yxatdan o'tish</button>
-            </div>
-        </div>
+          {navbarMain.map((item) => {
+            return (
+              !item.hidden && (
+                <Link key={item.id} to={item.path}>
+                  {item.title}
+                </Link>
+              )
+            );
+          })}
+          {localStorage.getItem("token") ? (
+            <h1>
+              <button onClick={GotoProfile}>Profile</button>
+              <button onClick={LogOut}>LogOut</button>
+            </h1>
+          ) : null}
         </Container>
+        <Outlet />
       </Navbar>
-        </>
-    )
+    </>
+  );
 }

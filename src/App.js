@@ -4,7 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 import FadeLoader from "react-spinners/FadeLoader";
 import style from "./App.module.css";
 import { BackTop } from "antd";
-import RouterMainjs from "./components/LandingPage/Router/RouterMain";
+import RouterMain from "./components/root/RouterMain";
+// import RouterMainjs from "./components/LandingPage/Router/RouterMain";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {loading ? (
+      {/* {loading ? (
         <div className={style.loader}>
           <FadeLoader color={"#120C3A"} loading={loading} size={50} />
           <h2>Biroz kuting!</h2>
@@ -24,7 +25,8 @@ function App() {
       ) : (
         <RouterMainjs />
       )}
-      <BackTop className={style.BackTop} />
+      <BackTop className={style.BackTop} /> */}
+      <RouterMain />
     </div>
   );
 }
