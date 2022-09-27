@@ -3,6 +3,7 @@ import Geniric from "../LandingPage/Geniric/Geniric";
 import Prices from "../LandingPage/Prices/Prices";
 import Pragramming from "../LandingPage/Programming languages/Programming";
 import Profile from "../ProfilePage/profile";
+
 export const navbarMain = [
   {
     id: 1,
