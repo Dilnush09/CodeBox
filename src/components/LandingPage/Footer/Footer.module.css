@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 1500px;
 }
 .Context img {
     width: 200px;
@@ -31,7 +32,7 @@
     margin-left: -300px;
     margin-top: -20px;
 }
-.Main a {
+.Main p {
     color: white;
     font-size: 16px;
     text-decoration: none;

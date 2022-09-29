@@ -49,7 +49,7 @@ export default function About() {
           <div className={style.Container}>
             <div className={style.inputs}>
               <div className={style.email}>
-                <label htmlFor="email1">email</label>
+                <label htmlFor="email1">Email</label>
                 <br />
                 <input
                   type={"email"}
@@ -86,8 +86,16 @@ export default function About() {
 
       <div className={style.Context1}>
         {/*--------------------------------------Page2-----------------------------------  */}
-        <div className={style.Textimg}></div>
-        <div className={style.TextDasturlash}></div>
+        <div className={style.Textimg}>
+          <h2>Dasturlashni amaliy</h2>
+          <h2>tarzda CodeBox bilan o'rganing.</h2>
+        </div>
+        <div className={style.TextDasturlash}>
+          <h3>01. Dasturlash tilini tanlang.</h3> <br/>
+          <h5>Hozirgi kunda eng ommabop dasturlash</h5>
+          <h5>tillarini CodeBoxga kiritdik va buni doimiy tarzda</h5>
+          <h5>yangilab boramiz.</h5>
+        </div>
       </div>
     </div>
   );

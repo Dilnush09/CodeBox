@@ -30,10 +30,10 @@ export default function Navbarjs() {
             );
           })}
           {localStorage.getItem("token") ? (
-            <h1>
+            <div className={style.buttontoken}>
               <button onClick={GotoProfile}>Profile</button>
               <button onClick={LogOut}>LogOut</button>
-            </h1>
+            </div>
           ) : null}
           <div className={style.contbutton}>
             <button>Ro'yxatdan o'tish</button>
