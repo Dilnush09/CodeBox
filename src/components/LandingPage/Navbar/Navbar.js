@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import Logo from "./brand.jpg";
-import { navbar } from "../../utils/navbar";
+import { navbarMain } from '../../util/navbarMain'
 import { NavLink, Outlet, useNavigate, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BiBell } from "react-icons/bi";
@@ -15,7 +15,7 @@ export default function NavbarJs() {
   const LogOut = () => {
     localStorage.removeItem("token");
     if (location?.pathname?.includes("profile")) {
-      navigate("/project_about");
+      navigate("/home");
     } else {
       navigate(location.pathname);
     }
@@ -70,7 +70,7 @@ export default function NavbarJs() {
             <img src={Logo} />
           </div>
           <div className={styles.NavbarBody}>
-            {navbar.map((value) => {
+            {navbarMain.map((value) => {
               return (
                 !value.hidden && (
                   <NavLink
