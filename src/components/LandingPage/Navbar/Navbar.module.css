@@ -1,92 +1,209 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.Container {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .Container {
     width: 100%;
-    height: 120px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content:center;
-    background-color: white;
+    justify-content: center;
+    /* background-color: white; */
 }
 
-.Content {
-    width: 80%;
-    padding: 30px 0px;
-    background-color: white;
+.NavarWrapper {
     display: flex;
+    height: 64px;
+    max-width: 90%;
+    font-family: "Monserrant";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
     align-items: center;
-    justify-content: space-evenly;
-}
-.Content a {
-    color: black;
-    font-size: 20px;
+    justify-content: center;
 }
 
-.Content img {
-    width: 150px;
-    height: 35px;
+.NavarWrapper .NavbarBody {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #343434;
+    justify-content: center;
 }
 
 
-.Main {
+.NavarWrapper .active_link {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #343434;
+    font-family: 'SF Pro Display';
+
+}
+
+.NavarWrapper .AutButton {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavarWrapper .SigUp {
+    width: 140px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #1DD1A1;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+
+.NavarWrapper .SigUp:active {
+
+    transform: scale(0.98);
+    opacity: 0.7;
+}
+
+.NavarWrapper.Auth {
+    width: 30%;
+    height: 100%;
+}
+
+.NavarWrapper .userProfile {
+    height: 100%;
     width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
-    margin-left: 150px;
-}
-.Main a{
-    text-decoration: none;
+    color: black;
+    padding: 1px 0;
 }
 
-.Language select {
-    border: 1px solid white;
-}
-
-.Language button {
-    width: 120px;
-    height: 30px;
-    border: 1px solid #32eab9;
-    border-radius: 5px;
-    background-color: #32eab9;
-    color: white;
-    margin-left: 50px;
-}
-.ItemMap {
-    width: 30%;
+.NavarWrapper .SearchPart {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+
+
+}
+
+.NavarWrapper .SearchPart p {
+    height: 100%;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-left: 1px solid #ABABAB;
+    border-right: 1px solid #ABABAB;
+    margin-top: 10px;
+}
+
+
+.SearchIcon {
+    font-size: 20px;
+    color: #ABABAB;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+.NavarWrapper .SearchIcon:hover {
+    color: rgb(85, 85, 85);
+}
+
+.NavarWrapper .UserPart {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.buttontoken button:nth-child(1) {
-    width: 100px;
-    height: 35px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    color: white;
-}
-.buttontoken button:nth-child(2) {
-    width: 100px;
-    height: 35px;
-    border: 1px solid red;
-    background-color: red;
-    border-radius: 5px;
-    color: white;
-    margin-left: 20px;
+ .UserImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    margin: 0px 10px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.contbutton button {
-    width: 120px;
-    height: 35px;
-    border: 1px solid #32eab9;
-    background-color: #32eab9;
-    border-radius: 5px;
-    color: white;
+ .UserImg img {
+    width: 100%;
+    height: 100%;
+}
+
+ .UserItem {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ .UserItem p:nth-child(1) {
+    position: relative;
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: bolder;
+    color: #343434;
+    top: 20px;
+}
+
+ .UserItem p:nth-child(2) span {
+    font-family: 'SF Pro Display';
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0px 5px;
+    color: #ABABAB;
+}
+
+ .SettingPart p {
+    height: 100%;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+ .MoreIcon {
+    font-size: 25px;
+    color: #ABABAB;
+    align-self: center;
+    cursor: pointer;
+
+}
+
+.MoreIcon:hover {
+    color: rgb(85, 85, 85);
+}
+
+
+.MenuMore {
+    width: 150px;
+    border: 1px solid #ABABAB;
+
+}
+
+.MenuBill {
+    width: 150px;
+    border: 1px solid #ABABAB;
+
 }
