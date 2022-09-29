@@ -153,18 +153,10 @@
 }
 .Textimg h2:nth-child(2) {
     margin-top: -10px;
-    margin-left: -20px;
+    margin-left: -10px;
 }
-
-
 .TextDasturlash {
     width: 50%;
     height: 100vh;
     border: 1px solid blue;
-}
-.TextDasturlash h3:nth-child(1) {
-    margin-top: 300px;
-}
-.TextDasturlash h3:nth-child(2) {
-    margin-left: 10px;
 }
