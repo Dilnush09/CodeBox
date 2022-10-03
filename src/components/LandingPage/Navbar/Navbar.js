@@ -62,6 +62,7 @@ export default function NavbarJs() {
       ]}
     />
   );
+  const style={color:"red"}
   return (
     <div className={styles.Wrapper}>
       <div className={styles.Container}>
@@ -75,6 +76,10 @@ export default function NavbarJs() {
                 !value.hidden && (
                   <NavLink
                     className={styles.active_link}
+                    style={({ isActive }) => ({
+                      color: isActive ? '#fff' : '#545e6f',
+                      background: isActive ? '#1DD1A1' : '#fff',
+                    })}
                     key={value.id}
                     to={value.path}
 q                  >
