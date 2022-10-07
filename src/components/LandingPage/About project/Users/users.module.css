@@ -1,0 +1,209 @@
+.Container {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #EEF2F5;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+.Main {
+    width: 80%;
+    display: flex;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TextUser {
+    width: 50%;
+    height: 100%;
+
+}
+
+.TextUser div:nth-child(1) p {
+
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #343434;
+    text-align: justify;
+}
+
+.TextUser div:nth-child(1) {
+    width: 90%;
+}
+
+.TextUser div:nth-child(2) {
+    width: 70%;
+    margin: 30px 0px;
+}
+
+
+.TextUser div:nth-child(2) p {
+
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #343434;
+}
+
+.TextUser div:nth-child(3) button {
+
+    width: 150px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA;
+    background-color: #1DD1A1;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border: none;
+    border-radius: 5px;
+    transition: .2s;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.TextUser div:nth-child(3) button:active {
+    transform: scale(0.98);
+    opacity: 0.7;
+}
+.UserStyle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstCircle {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #F3F6F8;
+
+    border-radius: 50%;
+
+}
+
+.FirstCircle img:nth-child(1) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: -40px;
+    right: 50%;
+    left: 50%;
+
+}
+
+.FirstCircle img:nth-child(2) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    bottom: 0px;
+    right: 30%;
+    left: 70%;
+
+}
+
+.FirstCircle img:nth-child(3) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 50%;
+    left: -40px;
+    bottom: 50%;
+
+}
+
+.SecondCircle {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F6F8;
+    /* opacity: 0.35; */
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.SecondCircle img:nth-child(1) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 0px;
+    right: 90%;
+    left: 10%;
+
+}
+
+.SecondCircle img:nth-child(2) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    right: 10%;
+    left: 85%;
+    top: 50%;
+    bottom: 50%;
+
+
+}
+
+.SecondCircle img:nth-child(3) {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 80%;
+    left: 40px;
+    bottom: 20%;
+
+}
+
+.Third {
+    width: 190px;
+    height: 190px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Third img:nth-child(1) {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(156, 156, 156);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}

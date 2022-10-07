@@ -5,7 +5,6 @@ import FadeLoader from "react-spinners/FadeLoader";
 import style from "./App.module.css";
 import { BackTop } from "antd";
 import RouterMain from "./components/root/RouterMain";
-// import RouterMainjs from "./components/LandingPage/Router/RouterMain";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -17,16 +16,16 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {/* {loading ? (
+      {loading ? (
         <div className={style.loader}>
           <FadeLoader color={"#120C3A"} loading={loading} size={50} />
           <h2>Biroz kuting!</h2>
         </div>
       ) : (
-        <RouterMainjs />
+        <RouterMain />
       )}
-      <BackTop className={style.BackTop} /> */}
-      <RouterMain />
+      <BackTop className={style.BackTop} />
+      
     </div>
   );
 }

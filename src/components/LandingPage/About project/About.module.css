@@ -164,6 +164,7 @@
     border-radius: 5px;
     margin-left: 450px;
     margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .Card1 p {
     color: red;
@@ -181,6 +182,7 @@
     border-radius: 5px;
     margin-top: 30px;
     margin-left: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .Card2 p {
     color: orange;
@@ -199,6 +201,7 @@
     border-radius: 5px;
     margin-top: -30px;
     margin-left: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .Card3 p {
     color: rgba(25, 151, 242, 1);
@@ -214,6 +217,7 @@
     border-radius: 5px;
     margin-left: 200px;
     margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .cardtext p:nth-child(1) {
     font-size: 22px;
@@ -222,12 +226,68 @@
     
 }
 .cardtext hr:nth-child(2) {
-    width: 229px;
+    width: 310px;
     height: 6px;
     border: 1px solid #808181;
     background-color: #808181;
     border-radius: 6px;
+    margin-left: 20px;
 }
+
+.TextimgCard1 hr:nth-child(1) {
+    width: 170px;
+    height: 6px;
+    border: 1px solid #808181;
+    background-color: #808181;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.TextimgCard1 hr:nth-child(2) {
+    width: 220px;
+    height: 6px;
+    border: 1px solid #808181;
+    background-color: #808181;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.cardhr {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cardhr hr:nth-child(1) {
+    width: 50px;
+    height: 6px;
+    background-color: #1DD1A1;
+    border: 1px solid #1DD1A1;
+    border-radius: 6px;
+    margin-left: -90px;
+    margin-top: 40px;
+}
+.cardhr hr:nth-child(2) {
+    width: 50px;
+    height: 6px;
+    background-color: #FFAD0F;
+    border: 1px solid #FFAD0F;
+    border-radius: 6px;
+    margin-left: -60px;
+    margin-top: 40px;
+}
+.cardhr hr:nth-child(3) {
+    width: 50px;
+    height: 6px;
+    background-color: #FB4767;
+    border: 1px solid #FB4767;
+    border-radius: 6px;
+    margin-left: -60px;
+
+    margin-top: 40px;
+}
+
 
 .TextDasturlash {
     width: 50%;
@@ -250,7 +310,6 @@
 .Context2 {
     width: 100%;
     height: 100vh;
-    border: 1px solid green;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -260,8 +319,8 @@
 
 .text {
     width: 50%;
-    height: 100vh;
-    border: 2px solid red;
+    height: 70vh;
+    margin-top: -200px;
 }
 .text p:nth-child(1) {
     font-size: 30px;
@@ -271,13 +330,29 @@
 .text p:nth-child(2) {
     font-size: 30px;
     font-weight: 500;
+    margin-top: -35px;
+    margin-left: -120px;
+}
+.text p:nth-child(4) {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.text p:nth-child(5) {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 90px;
 }
 
 
 .card {
     width: 50%;
-    height: 100vh;
-    border: 2px solid blue;
+    height: 70vh;
+    margin-top: -200px;
+}
+.card img {
+    margin-left: -200px;
+    margin-top: 50px;
 }
 
 .buttoncard {
@@ -285,11 +360,11 @@
     height: 50px;
     background-color: white;
     border-radius: 5px;
-    margin-top: 100px;
+    margin-top: -210px;
     margin-left: 130px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .buttoncard h5 {
     color: #1DD1A1;
@@ -297,8 +372,9 @@
 .buttoncard p:nth-child(2) {
     font-size: 18px;
     font-weight: 600;
+    margin-top: 13px;
 }
-.buttoncard h6:nth-child(3) {
+.buttoncard h5:nth-child(3) {
     color: #C4C4C4;
 }
 
@@ -311,7 +387,7 @@
     margin-left: 180px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .buttoncard1 h5 {
     color: red;
@@ -319,8 +395,9 @@
 .buttoncard1 p:nth-child(2) {
     font-size: 18px;
     font-weight: 600;
+    margin-top: 13px;
 }
-.buttoncard1 h6:nth-child(3) {
+.buttoncard1 h5:nth-child(3) {
     color: #C4C4C4;
 }
 
@@ -333,7 +410,7 @@
     margin-left: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .buttoncard2 h5 {
@@ -342,7 +419,857 @@
 .buttoncard2 p:nth-child(2) {
     font-size: 18px;
     font-weight: 600;
+    margin-top: 13px;
 }
-.buttoncard2 h6:nth-child(3) {
+.buttoncard2 h5:nth-child(3) {
     color: #C4C4C4;
 }
+
+.Context3 {
+    width: 100%;
+    height: 70vh;
+    background-color: #EEF2F5;
+    margin-top: -220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Card01 {
+    width: 50%;
+    height: 70vh;
+}
+.Card01 img {
+    margin-top: 50px;
+}
+.cardcontext {
+    width: 250px;
+    height: 200px;
+    margin-top: -220px;
+    margin-left: 250px;
+    background-color: white;
+}
+.cardcontext p:nth-child(1) {
+    font-size: 23px;
+    font-weight: 700;
+}
+.cardcontext p:nth-child(2) {
+    font-size: 20px;
+    color: #68696a;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+.cardcontext hr:nth-child(4) {
+    width: 180px;
+    height: 6px;
+    border: 1px solid #808181;
+    background-color: #808181;
+    border-radius: 6px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.cardcontext hr:nth-child(5) {
+    width: 120px;
+    height: 6px;
+    border: 1px solid #808181;
+    background-color: #808181;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.cardcontext hr:nth-child(6) {
+    width: 160px;
+    height: 6px;
+    border: 1px solid #808181;
+    background-color: #808181;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.Text1 {
+    width: 50%;
+    height: 70vh;
+}
+.Text1 p:nth-child(1) {
+    font-size: 30px;
+    margin-left: -80px;
+}
+.Text1 p:nth-child(2) {
+    font-size: 30px;
+    margin-left: -70px;
+    margin-top: -30px;
+}
+.Text1 p:nth-child(3) {
+    font-size: 30px;
+    margin-left: -290px;
+    margin-top: -30px;
+}
+.Text1 p:nth-child(5) {
+    font-size: 20px;
+}
+.Text1 p:nth-child(6) {
+    font-size: 20px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.Text1 p:nth-child(7) {
+    font-size: 20px;
+    margin-left: -230px;
+    margin-top: -20px;
+}
+
+
+.Context4 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEF2F5;
+}
+
+.Text2 {
+    width: 50%;
+    height: 70vh;
+}
+.Text2 p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 95px;
+}
+.Text2 p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -25px;
+    margin-left: -80px;
+}
+.Text2 p:nth-child(4) {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+.Text2 p:nth-child(5) {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -15px;
+}
+.Text2 p:nth-child(6) {
+    font-size: 20px;
+    margin-left: -80px;
+    margin-top: -15px;
+}
+
+
+.cardcontext1 {
+    width: 50%;
+    height: 70vh;
+    margin-top: -100px;
+}
+.cardtrue {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: -230px;
+}
+
+.cardtrue p {
+    color: #1DD1A1;
+    margin-top: 5px;
+}
+
+.cardtrue1 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 190px;
+    margin-left: 390px;
+}
+.cardtrue1 p {
+    color: #1DD1A1;
+    margin-top: 10px;
+}
+
+.Card00 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #E2E9EC;
+    margin-left: 310px;
+    margin-top: -180px;
+}
+.card01 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: -150px;
+}
+.card01 img {
+    width: 65px;
+    height: 60px;
+    margin-top: 10px;
+}
+.card02 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -70px; 
+}
+.card02 img {
+    width: 55px;
+    height: 50px;
+    margin-top: 5px;
+}
+.card03 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.card03 img {
+    width: 45px;
+    height: 40px;
+    margin-top: 5px;
+}
+.card04 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 280px;
+    margin-top: -60px;
+}
+.card04 img {
+    width: 35px;
+    height: 30px;
+    margin-top: 8px;
+}
+.html {
+    width: 60px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: -70px;
+}
+.html p {
+    font-size: 19px;
+    font-weight: 700;
+    color: #68696a;
+}
+
+
+
+.Context5 {
+    width: 100%;
+    height: 110vh;
+    background-color: #EEF2F5;
+    margin-top: -170px;
+}
+
+.TextCont5 {
+    width: 100%;
+    height: 250px;
+}
+
+.TextCont5 p:nth-child(1) {
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: -680px;
+}
+.TextCont5 p:nth-child(2) {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: -800px;
+}
+.TextCont5 p:nth-child(3) {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: -1080px;
+}
+
+
+.CardCont5 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -80px;
+}
+
+
+.Cardcont51 {
+    width: 400px;
+    height: 350px;
+    margin-left: 80px;
+    background-color: white;
+}
+.Cardcont5text p:nth-child(1) {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: -270px;
+}
+.Cardcont5text p:nth-child(2) {
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: -290px;
+}
+.Cardcont5text p:nth-child(3) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -180px;
+}
+.Cardcont5text p:nth-child(4) {
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -70px;
+}
+.Cardcont5text p:nth-child(5) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+.Cardcont5text p:nth-child(7) {
+    font-size: 13px;
+    margin-left: -45px;
+}
+.Cardcont5text p:nth-child(8) {
+    font-size: 13px;
+    margin-left: -47px;
+    margin-top: -10px;
+}
+.Cardcont5text p:nth-child(9) {
+    font-size: 13px;
+    margin-left: -47px;
+    margin-top: -10px;
+}
+.Cardcont5text p:nth-child(10) {
+    font-size: 13px;
+    margin-left: -48px;
+    margin-top: -10px;
+}
+.Cardcont5text p:nth-child(11) {
+    font-size: 13px;
+    margin-left: -80px;
+    margin-top: -10px;
+}
+.Cardcont5text p:nth-child(12) {
+    font-size: 13px;
+    margin-left: -67px;
+    margin-top: -10px;
+}
+.Cardcont5text p:nth-child(13) {
+    font-size: 13px;
+    margin-left: -160px;
+    margin-top: -10px;
+}
+
+.Cardcont5button {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.Cardcont5button button:nth-child(1) {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #39D7AD;
+    border: 1px solid #39D7AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Cardcont52 {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin-left: -50px;
+}
+
+.Cardcont5text1 p:nth-child(1) {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: -230px;
+}
+.Cardcont5text1 p:nth-child(2) {
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: -290px;
+}
+.Cardcont5text1 p:nth-child(3) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -180px;
+}
+.Cardcont5text1 p:nth-child(4) {
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -70px;
+}
+.Cardcont5text1 p:nth-child(5) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+.Cardcont5text1 p:nth-child(7) {
+    font-size: 13px;
+    margin-left: -55px;
+}
+.Cardcont5text1 p:nth-child(8) {
+    font-size: 13px;
+    margin-left: -55px;
+    margin-top: -10px;
+}
+.Cardcont5text1 p:nth-child(9) {
+    font-size: 13px;
+    margin-left: -55px;
+    margin-top: -10px;
+}
+.Cardcont5text1 p:nth-child(10) {
+    font-size: 13px;
+    margin-left: -70px;
+    margin-top: -10px;
+}
+.Cardcont5text1 p:nth-child(11) {
+    font-size: 13px;
+    margin-left: -65px;
+    margin-top: -10px;
+}
+.Cardcont5text1 p:nth-child(12) {
+    font-size: 13px;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+
+.Cardcont5button1 {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.Cardcont5button1 button:nth-child(1) {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #39D7AD;
+    border: 1px solid #39D7AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.Cardcont53 {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin-left: -50px;
+}
+
+
+.Cardcont5text2 p:nth-child(1) {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: -290px;
+}
+.Cardcont5text2 p:nth-child(2) {
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: -290px;
+}
+.Cardcont5text2 p:nth-child(3) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -180px;
+}
+.Cardcont5text2 p:nth-child(4) {
+    font-weight: 500;
+    margin-top: -36px;
+    margin-left: -70px;
+}
+.Cardcont5text2 p:nth-child(5) {
+    color: #808181;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+.Cardcont5text2 p:nth-child(7) {
+    font-size: 13px;
+    margin-left: -55px;
+}
+.Cardcont5text2 p:nth-child(8) {
+    font-size: 13px;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+.Cardcont5text2 p:nth-child(9) {
+    font-size: 13px;
+    margin-left: -65px;
+    margin-top: -10px;
+}
+.Cardcont5text2 p:nth-child(10) {
+    font-size: 13px;
+    margin-left: -45px;
+    margin-top: -10px;
+}
+.Cardcont5text2 p:nth-child(11) {
+    font-size: 13px;
+    margin-left: -67px;
+    margin-top: -10px;
+}
+.Cardcont5text2 p:nth-child(12) {
+    font-size: 13px;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+
+
+.Cardcont5button2 {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.Cardcont5button2 button:nth-child(1) {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #39D7AD;
+    border: 1px solid #39D7AD;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* .Context6 {
+    width: 100%;
+    height: 100vh;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EEF2F5;
+} */
+
+
+
+.Context7 {
+    width: 100%;
+    height: 110vh;
+    background-color: #EEF2F5;
+}
+
+.Context7Text {
+    width: 100%;
+    height: 150px;
+}
+.Context7Text p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: -1000px;
+}
+.Context7Text p:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: -1080px;
+    margin-top: -35px;
+}
+
+.Context7Card {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CardContext71 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    transition: 2s;
+    border-radius: 5px;
+}
+.CardContext71:hover {
+    width: 380px;
+    height: 520px;
+    transition: 2s;
+    border-top: 8px solid #1DD1A1;
+    border-radius: 5px;
+}
+
+.CardContext71 p:nth-child(1) {
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.CardContext71 p:nth-child(2) {
+    font-size: 29px;
+    font-weight: 700;
+}
+.CardContext71 p:nth-child(3) {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.CardContext71 p:nth-child(5) {
+    font-weight: 400;
+    margin-top: -10px;
+}
+.CardContext71 p:nth-child(6) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext71 p:nth-child(7) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext71 p:nth-child(8) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext71 p:nth-child(9) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+
+.Button71 button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: #1DD1A1;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.Button71 button:hover {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: white;
+    font-weight: 600;
+    background-color: #1DD1A1;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+
+
+.CardContext72 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    transition: 2s;
+    border-radius: 5px;
+}
+.CardContext72:hover {
+    width: 380px;
+    height: 520px;
+    transition: 2s;
+    border-top: 8px solid #1DD1A1;
+    border-radius: 5px;
+}
+
+
+.CardContext72 p:nth-child(1) {
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.CardContext72 p:nth-child(2) {
+    font-size: 29px;
+    font-weight: 700;
+}
+.CardContext72 p:nth-child(3) {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.CardContext72 p:nth-child(5) {
+    font-weight: 400;
+    margin-top: -10px;
+}
+.CardContext72 p:nth-child(6) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext72 p:nth-child(7) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext72 p:nth-child(8) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext72 p:nth-child(9) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+
+.Button72 button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: #1DD1A1;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.Button72 button:hover {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: white;
+    font-weight: 600;
+    background-color: #1DD1A1;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+
+
+.CardContext73 {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    transition: 2s;
+    border-radius: 5px;
+}
+.CardContext73:hover {
+    width: 380px;
+    height: 520px;
+    transition: 2s;
+    border-top: 8px solid #1DD1A1;
+    border-radius: 5px;
+}
+
+
+.CardContext73 p:nth-child(1) {
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.CardContext73 p:nth-child(2) {
+    font-size: 29px;
+    font-weight: 700;
+}
+.CardContext73 p:nth-child(3) {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.CardContext73 p:nth-child(5) {
+    font-weight: 400;
+    margin-top: -10px;
+}
+.CardContext73 p:nth-child(6) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext73 p:nth-child(7) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext73 p:nth-child(8) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+.CardContext73 p:nth-child(9) {
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+
+.Button73 button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: #1DD1A1;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+.Button73 button:hover {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border: 1px solid #1DD1A1;
+    color: white;
+    font-weight: 600;
+    background-color: #1DD1A1;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+
+.Context8 {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEF2F5;
+}
+
+.TextCont8 {
+    width: 100%;
+    height: 150px;
+}
+.TextCont8 h1:nth-child(1) {
+    font-weight: 600;
+    margin-left: -1000px;
+}
+.TextCont8 h1:nth-child(2) {
+    font-weight: 600;
+    margin-left: -995px;
+    margin-top: -10px;
+}
+
+.CarouselMenu {
+    width: 750px;
+    height: 500px;
+    margin-left: 400px;
+    background-color: #EEF2F5;
+}
+.news_item {
+    margin-top: 120px;
+}
+.Card {
+    margin-top: -100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.Card img {
+    width: 165px;
+    height: 145px;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+
