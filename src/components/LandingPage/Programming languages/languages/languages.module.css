@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.main {
+    margin-top: 100px;
+    padding: 50px 10%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 31.1%;
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 160px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: -40%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    transition: all .8s ease;
+}
+
+.img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.stars {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.stars span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #C4C4C4;
+}
+
+.bodystar {
+    padding: 0 35px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #086F6C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    transition: all .6s ease;
+}
+.button button:hover{
+    background-color: #086F6C;
+    color: #FFFFFF;
+}
+
+.progress1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.progress1 span {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.progress {
+    margin-bottom: 53px;
+}
+
+.but {
+    width: 100%;
+}
+
+.but button {
+    width: 100%;
+    background: #086F6C;
+    border-radius: 5px;
+    padding: 10px 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #086F6C;
+    color: #FFFFFF;
+    transition: all .6s ease;
+}
+.but button:hover{
+    background: #fff;
+    color: #086F6C;
+}
