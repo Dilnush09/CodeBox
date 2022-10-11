@@ -66,7 +66,7 @@ function Languagespr() {
                                     <div className={style.progress}>
                                         <ProgressBar variant='#086F6C' now={item.now} />
                                     </div>
-                                    <div className={style.but}><button>Kursni davom ettirish</button></div>
+                                <div className={style.but}><button>Kursni davom ettirish</button></div>
                                 </div>
 
                             )
