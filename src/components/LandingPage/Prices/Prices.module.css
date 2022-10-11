@@ -105,9 +105,6 @@
     align-items: center;
 }
 
-.overlay:hover{
-    opacity: 1;
-}
 .buy{
     width: 100%;
     padding: 10px;
@@ -116,7 +113,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 2px;
-    margin-top: 25px;
     transition: all .3s ease;
     color: #fff;
     font-size: 18px;
@@ -124,6 +120,16 @@
 }
 .buy:hover{
     border: 1px solid #1f2949;
+}
+.buymain{
+    width: 100%;
+    margin-top: 100px;
+    transition: 2s ease;
+    transition-delay: .5s;
+}
+.card:hover .overlay, .buymain{
+    opacity: 1;
+    margin-bottom: 100px;
 }
 .overlay:hover ~ .overlay div{
     margin-top: 0;
@@ -152,4 +158,28 @@
 .footer button:hover{
     background-color: #ff5248;
     color: #fff;
+}
+@media(min-width:768px) and (max-width:1024px){
+    .card{
+        width: 48%;
+    }
+}
+@media(min-width:450px) and (max-width:767px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media(max-width:450px){
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .card{
+        width: 100%;
+    }
 }

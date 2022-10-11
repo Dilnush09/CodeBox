@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@500&display=swap');
 
 .main {
     margin-top: 100px;
@@ -134,4 +135,45 @@
 .but button:hover{
     background: #fff;
     color: #086F6C;
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .main{
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .card{
+        width: 48%;
+    }
+}
+@media(min-width:450px) and (max-width:767px){
+    .card{
+        width: 100%;
+    }
+    .stars {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .img{
+        margin-top: -20%;
+    }
+
+}
+
+@media(max-width:450px){
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .card{
+        width: 100%;
+    }
 }
