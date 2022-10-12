@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding: 30px 10%;
+    background-color: #E5E5E5;
+
+}
+
+.title h1 {
+    text-align: start;
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 36px;
+    color: #111111;
+    font-weight: bold;
+}
+
+.sozlamalar {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.img1 {
+    width: 227px;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: start;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.camera {
+    width: 100%;
+    height: 54px;
+    position: absolute;
+    bottom: -100px;
+    background: #093845d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    transition: all 1s ease;
+}
+.img:hover > .camera{
+    bottom: -8px;
+}
+
+
+.forms {
+    width: 316px;
+    gap: 30px;
+}
+
+.input {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #818181;
+
+}
+
+.text {
+    height: 100%;
+    align-items: center;
+}
+
+.text .about {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 0;
+    text-align: start;
+    font-weight: normal;
+}
+
+.text input {
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    line-height: 24px;
+    color: #343434;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.text input:focus{
+    /* border: 1px solid #1DD1A1; */
+    padding: 0  10px;
+    box-shadow: #0bf4fc 0px 7px 29px 0px;
+}
+.input:nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.buttongroup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttongroup button:nth-child(1) {
+    border: 1px solid #FB4767;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #FB4767;
+    gap: 5px;
+}
+
+.buttongroup button:nth-child(1):hover {
+    border: 1px solid #FB4767;
+    border-radius: 6px;
+    background-color: #FB4767;
+    color: #ffffff;
+    gap: 5px;
+}
+
+.buttongroup button:nth-child(2) {
+    border: 1px solid #1DD1A1;
+    border-radius: 6px;
+    background: #1DD1A1;
+    color: #fff;
+    gap: 5px;
+}
+
+.buttongroup button:nth-child(2):hover {
+    background-color: transparent;
+    border: 1px solid #1DD1A1;
+    color: #1DD1A1;
+}
+
+.buttongroup button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    transition: all .7s ease;
+}

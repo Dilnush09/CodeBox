@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.title h1 {
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 36px;
+    color: #111111;
+}
+
+.button button {
+    padding: 5px 10px;
+    border: 1px solid #343434;
+    border-radius: 2px;
+    transition: all .7s ease;
+    background-color: transparent;
+}
+
+.button button:hover {
+    background-color: #343434;
+    color: #FFF;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards {
+    width: 350px;
+    padding: 32px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.til h1 {
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: start;
+}
+
+.til p {
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+    color: #2e2e2e;
+    text-align: start;
+}
+
+.til p span {
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+}
+
+.body p {
+    text-align: start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.button2 button {
+    background: #1DD1A1;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    color: #FFFFFF;
+    transition: all 1.3s ease;
+    
+}
+.button2 button:hover{
+    background-color: #FFF;
+    border: 1px solid #1DD1A1;
+    color: #000000;
+}
+.cards:nth-child(3) .button2 button {
+    background: #1DD1A1;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    color: #FFFFFF;
+    transition: all 1.3s ease;
+    margin-top: 25px;
+    
+}
+
+.cards:nth-child(3) .button2 button:hover{
+    background-color: #FFF;
+    border: 1px solid #1DD1A1;
+    color: #000000;
+}

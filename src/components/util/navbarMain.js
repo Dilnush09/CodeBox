@@ -3,6 +3,7 @@ import Geniric from "../LandingPage/Geniric/Geniric";
 import Prices from "../LandingPage/Prices/Prices";
 import Pragramming from "../LandingPage/Programming languages/Programming";
 import Profile from "../ProfilePage/profile";
+import ProfileSettings from "../ProfilePage/Profile Settings/settings";
 
 export const navbarMain = [
   {
@@ -52,6 +53,16 @@ export const navbarMain = [
     title: "Profile",
     path: "/profile",
     Element: <Profile />,
+    search: "?",
+    hidden: true,
+    private: false,
+    param:true
+
+  },
+   { id:7,
+    title: "Profile",
+    path: "/profilesettings",
+    Element: <ProfileSettings />,
     search: "?",
     hidden: true,
     private: false,
