@@ -207,3 +207,19 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
+@media (min-width: 768px) and (max-width: 1024px){
+    .Container {
+        height: 250vh;
+    }
+    .Main{
+        display: block;
+    }
+    .TextUser{
+        width: 100%;
+        margin-top: 250px;
+    }
+    .UserStyle {
+        margin-top: -1300px;
+        margin-left: 200px;
+    }
+}

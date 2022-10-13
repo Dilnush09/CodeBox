@@ -8,10 +8,6 @@ import Person1 from "../About project/Img box/person1.png"
 import Person2 from "../About project/Img box/person2.png"
 import Person3 from "../About project/Img box/person3.png"
 import Person4 from "../About project/Img box/person4.png"
-import Man from "../About project/Img box/man.png"
-import Man2 from "../About project/Img box/man2.png"
-import Man3 from "../About project/Img box/man3.png"
-
 
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { VscWorkspaceUntrusted } from "react-icons/vsc";
@@ -129,7 +125,7 @@ export default function About() {
         {/*--------------------------------------Page2-----------------------------------  */}
         <div className={style.Textimg}>
           <h2>Dasturlashni amaliy</h2>
-          <h2>tarzda CodeBox bilan o'rganing.</h2>
+          <h2>tarzda CodeBox bilan o'rganing</h2>
           <div className={style.Card1}>
             <p>JAVA</p>
           </div>
@@ -312,7 +308,9 @@ export default function About() {
         </div>
       </div>
 
+      <div className={style.User}>
       <Users/>
+      </div>
 
       <div className={style.Context7}>
         <div className={style.Context7Text}>
