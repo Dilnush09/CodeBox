@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.title h1 {
+    font-family: 'SF Pro Display';
+    font-size: 30px;
+    line-height: 36px;
+    color: #111111;
+}
+
+.button button {
+    padding: 5px 10px;
+    border: 1px solid #343434;
+    border-radius: 2px;
+    transition: all .7s ease;
+    background-color: transparent;
+}
+
+.button button:hover {
+    background-color: #343434;
+    color: #FFF;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 31%;
+    padding: 32px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sleepln h1 {
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 29px;
+    color: #111111;
+}
+
+.title2 .line {
+    width: 50px;
+    height: 6px;
+    background: #FFD90F;
+    border-radius: 3px;
+}
+
+.cards:nth-child(1) .title2 .line {
+
+    background: #05DB8E;
+    border-radius: 3px;
+}
+.cards:nth-child(2) .title2 .line {
+
+    background: #05DB8E;
+    border-radius: 3px;
+}
+.cards:nth-child(5) .title2 .line {
+    background: #ABABAB;
+    border-radius: 3px;
+}
+
+.cards:nth-child(6) .title2 .line {
+    background: #ABABAB;
+    border-radius: 3px;
+}
+
+.body p {
+    text-align: start;
+    color: #343434;
+}
+.tillar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.til {
+    font-family: 'SF Pro Display';
+    font-size: 12px;
+    line-height: 14px;
+    color: #ABABAB;
+    text-align: start;
+}
+
+.til p:nth-child(2) {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #1f1d1d;
+    text-transform: uppercase;
+    margin-top: -10px;
+    text-align: start;
+}
+
+.titles2 {
+    display: flex;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #1f1d1d;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.titles2 p:nth-child(2) {
+    margin-left: 63px;
+    margin-right: 36px;
+}
+
+
+.button2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button2 button {
+    background: #1DD1A1;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: 1px solid #1DD1A1;
+    color: #FFFFFF;
+    transition: all .7s ease;
+
+}
+
+.button2 button:hover {
+    background-color: #FFF;
+    border: 1px solid #1DD1A1;
+    color: #000000;
+}
+.cards:nth-child(5) .button2 button {
+    background-color: #ABABAB;
+    border: 1px solid #ABABAB;
+    color: #FFFFFF;
+}
+.cards:nth-child(6) .button2 button {
+    background-color: #ABABAB;
+    color: #FFFFFF;
+    border: 1px solid #ABABAB;
+
+}
+.cards:nth-child(5) .button2 button:hover{
+    background-color: #FFF;
+    border: 1px solid #ABABAB;
+    color: #ABABAB;
+}
+.cards:nth-child(6) .button2 button:hover{
+    background-color: #FFF;
+    border: 1px solid #ABABAB;
+    color: #ABABAB;
+}

@@ -145,10 +145,14 @@
     .card{
         width: 48%;
     }
+    .img{
+        margin-top: -30%;
+    }
 }
 @media(min-width:450px) and (max-width:767px){
     .card{
         width: 100%;
+        margin-top: 20px;
     }
     .stars {
         margin-top: 20px;
@@ -159,7 +163,7 @@
         padding: 10px;
     }
     .img{
-        margin-top: -20%;
+        margin-top: 5px;
     }
 
 }

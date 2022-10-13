@@ -2,6 +2,7 @@ import About from "../LandingPage/About project/About";
 import Geniric from "../LandingPage/Geniric/Geniric";
 import Prices from "../LandingPage/Prices/Prices";
 import Pragramming from "../LandingPage/Programming languages/Programming";
+import Lists from "../ProfilePage/Course Lists/lists";
 import Profile from "../ProfilePage/profile";
 import ProfileSettings from "../ProfilePage/Profile Settings/settings";
 
@@ -26,28 +27,30 @@ export const navbarMain = [
     path: "/price",
     Element: <Prices />,
     hidden: false,
-  },
-  {
-    id: 4,
-    title: "SignIn",
-    path: "/signin",
-    Element: <Prices />,
-    search: "?",
-    hidden: true,
-    private: false,
-    param:true
-  },
-  {
-    id: 5,
-    title: "SignUp",
-    path: "/signup",
-    Element: <Prices />,
-    search: "?",
-    hidden: true,
-    private: false,
-    param:true
+    private: true,
 
   },
+  // {
+  //   id: 4,
+  //   title: "SignIn",
+  //   path: "/signin",
+  //   Element: <Prices />,
+  //   search: "?",
+  //   hidden: true,
+  //   private: false,
+  //   param:true
+  // },
+  // {
+  //   id: 5,
+  //   title: "SignUp",
+  //   path: "/signup",
+  //   Element: <Prices />,
+  //   search: "?",
+  //   hidden: true,
+  //   private: false,
+  //   param:true
+
+  // },
   {
     id: 6,
     title: "Profile",
@@ -60,9 +63,19 @@ export const navbarMain = [
 
   },
    { id:7,
-    title: "Profile",
+    title: "Settings",
     path: "/profilesettings",
     Element: <ProfileSettings />,
+    search: "?",
+    hidden: true,
+    private: false,
+    param:true
+
+  },
+   { id:8,
+    title: "Statistika",
+    path: "/statistika",
+    Element: <Lists />,
     search: "?",
     hidden: true,
     private: false,

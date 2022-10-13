@@ -112,3 +112,32 @@
     border: 1px solid #1DD1A1;
     color: #000000;
 }
+@media(min-width:768px) and (max-width:1024px){
+    .main{
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .card{
+        width: 48%;
+    }
+}
+@media(min-width:450px) and (max-width:767px){
+    .card{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:450px){
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .card{
+        width: 100%;
+    }
+}
