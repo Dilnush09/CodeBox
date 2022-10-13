@@ -5,6 +5,7 @@ import { BsTelephone } from "react-icons/bs"
 import { FiLock, FiCamera } from "react-icons/fi"
 import { RiDeleteBin6Line } from "react-icons/ri"
 
+
 export default function ProfileSettings() {
   const items = [
     { icon: <BiUser />, part: "To'liq ismi", text: "Muhammad Jumayev" },
