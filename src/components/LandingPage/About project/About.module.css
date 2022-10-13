@@ -128,7 +128,7 @@
     border: 1px solid #39D7AD;
     background-color: #39D7AD;
     color: white;
-    margin-left: -405px;
+    margin-left: -385px;
 }
 
 /* ----------Context1--------- */   
@@ -147,10 +147,13 @@
 }
 .Textimg h2:nth-child(1) {
     margin-top: 100px;
-    margin-left: -120px;
+    margin-left: -160px;
+    font-weight: 700;
 }
 .Textimg h2:nth-child(2) {
-    margin-left: 60px;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-weight: 700;
 }
 
 
@@ -226,7 +229,7 @@
     
 }
 .cardtext hr:nth-child(2) {
-    width: 310px;
+    width: 270px;
     height: 6px;
     border: 1px solid #808181;
     background-color: #808181;
@@ -682,19 +685,19 @@
 .TextCont5 p:nth-child(1) {
     font-size: 35px;
     font-weight: 500;
-    margin-left: -680px;
+    margin-left: -670px;
 }
 .TextCont5 p:nth-child(2) {
     font-size: 35px;
     font-weight: 500;
     margin-top: -35px;
-    margin-left: -800px;
+    margin-left: -790px;
 }
 .TextCont5 p:nth-child(3) {
     font-size: 35px;
     font-weight: 500;
     margin-top: -35px;
-    margin-left: -1080px;
+    margin-left: -1070px;
 }
 
 
@@ -957,18 +960,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-/* .Context6 {
-    width: 100%;
-    height: 100vh;
-    border: 5px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #EEF2F5;
-} */
-
 
 
 .Context7 {
@@ -1271,5 +1262,380 @@
     height: 145px;
     margin-left: 300px;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
+.textover p:nth-child(2) {
+    color: #1DD1A1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textover2 p:nth-child(2) {
+    color: #1DD1A1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.textover1 p:nth-child(2) {
+    color: #1DD1A1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1024px) {
+    .Text {
+        width: 600px;
+        height: 550px;
+    }
+    .Text h2:nth-child(1) {
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    .Text h2:nth-child(2) {
+        width: 500px;
+        margin-left: -5px;
+        font-weight: 700;
+    }
+
+
+    .Context1 {
+        width: 100%;
+        background-color: #EEF2F5;
+    }
+    .Textimg {
+        width: 500px;
+        height: 550px;
+        margin-top: -200px;
+   }
+    .inputs {
+        margin-left: -70px;
+    }
+    .buttoninputs {
+        margin-left: 125px;
+    }
+    .Textimg h2:nth-child(1) {
+        width: 500px;
+        margin-left: -80px;
+    }
+    .Textimg h2:nth-child(2) {
+        width: 500px;
+        margin-left: 10px;
+    }
+    .TextimgCard {
+        width: 250px;
+        height: 150px;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+    .TextimgCard hr:nth-child(2) {
+        width: 150px;
+    }
+    .TextimgCard hr:nth-child(1) {
+        width: 100px;
+    }
+    .Card1 {
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .cardhr hr:nth-child(1) {
+        border: none;
+        background-color: #EEF2F5;
+        margin-top: -10px;
+    }
+    .cardhr hr:nth-child(2) {
+        border: none;
+        background-color: #EEF2F5;
+        margin-top: -15px;
+    }
+    .cardhr hr:nth-child(3) {
+        border: none;
+        background-color: #EEF2F5;
+    }
+    .Card2 {
+        margin-left: 100px;
+    }
+    .Card3 {
+        margin-left: 250px;
+    }
+    .TextDasturlash {
+        width: 500px;
+        height: 550px;
+        margin-top: -150px;
+        background-color: #EEF2F5;
+    }
+    .TextDasturlash h3:nth-child(1) {
+        margin-left: -100px;
+    }
+    .TextDasturlash h5:nth-child(3) {
+        margin-left: -80px;
+    }
+    .TextDasturlash h5:nth-child(4) {
+        margin-left: -5px;
+    }
+    .TextDasturlash h5:nth-child(5) {
+        margin-left: -280px;
+    }
+
+    .text p:nth-child(4) {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+    .text p:nth-child(5) {
+        margin-top: -20px;
+        margin-left: 80px;
+    }
+    .card img {
+        margin-left: 20px;
+    }
+
+    .cardcontext {
+        margin-left: 120px;
+    }
+
+
+    .Text2 p:nth-child(1) {
+        margin-left: 10px;
+    }
+    .Text2 p:nth-child(2) {
+        margin-left: -170px;
+    }
+    .Text2 p:nth-child(4) {
+        margin-left: -10px;
+    }
+    .Text2 p:nth-child(5) {
+        margin-left: -10px;
+    }
+    .Text2 p:nth-child(6) {
+        margin-left: -170px;
+    }
+
+    .Card00 {
+        margin-left: 200px;
+    }
+    .card01 {
+        margin-left: 120px;
+    }
+    .card02 {
+        margin-left: 280px;
+    }
+    .card03 {
+        margin-left: 120px;
+    }
+    .cardtrue {
+        margin-left: 230px;
+    }
+    .cardtrue1 {
+        margin-left: 270px;
+    }
+    .html {
+        margin-left: 80px;
+        margin-top: -110px;
+    }
+
+
+    .Context5 {
+        width: 100%;
+        height: 150vh;
+    }
+    .TextCont5 p:nth-child(1) {
+        margin-left: -370px;
+    }
+    .TextCont5 p:nth-child(2) {
+        margin-left: -500px;
+    }
+    .TextCont5 p:nth-child(3) {
+        margin-left: -780px;
+    }
+
+    .Cardcont51 {
+        margin-left: -240px;
+    }
+    .Cardcont52 {
+        margin-left: -200px;
+    }
+    .Cardcont53 {
+        margin-top: 800px;
+        margin-left: -1000px;
+    }
+
+    .User {
+        margin-top: 10px;
+    }
+
+    .Context7 {
+        width: 100%;
+        height: 250vh;
+        /* background-color: #1DD1A1; */
+        margin-top: -200px;
+    }
+    .Context7Text p:nth-child(1) {
+        margin-left: -600px;
+    }
+    .Context7Text p:nth-child(2) {
+        margin-left: -680px;
+    }
+
+    .CardContext71 {
+        margin-left: -200px;
+    }
+    .CardContext72 {
+        margin-left: -200px;
+    }
+    .CardContext73 {
+        margin-top: 1100px;
+        margin-left: -1000px;
+    }
+
+
+    .Context8 {
+        width: 100%;
+        height: 120vh;
+        margin-top: -100px;
+    }
+    .TextCont8 h1:nth-child(1) {
+        margin-left: -580px;
+    }
+    .TextCont8 h1:nth-child(2) {
+        margin-left: -580px;
+    }
+
+    .CarouselCont8 {
+        margin-left: -250px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .Text h2:nth-child(1) {
+        width: 500px;
+        margin-top: 50px;
+        margin-left: 100px;
+        font-weight: 700;
+    }
+    .Text h2:nth-child(2) {
+        width: 500px;
+        margin-left: 85px;
+        font-weight: 700;
+    }
+    .Img img {
+        margin-top: 400px;
+        margin-left: -500px;
+    }
+
+    .inputs {
+        margin-left: 50px;
+    }
+    .buttoninputs {
+        margin-left: 270px;
+    }
+
+    .Context1 {
+        /* background-color: red; */
+        margin-top: 450px;
+    }
+    .Textimg h2:nth-child(1) {
+        width: 500px;
+        margin-left: -125px;
+    }
+    .Textimg h2:nth-child(2) {
+        width: 500px;
+        margin-left: -55px;
+    }
+    .TextDasturlash {
+        height: 10px;
+        margin-top: 400px;
+        margin-left: -200px;
+    }
+    .TextDasturlash h3:nth-child(1) {
+        margin-top: 20px;
+        margin-left: -200px;
+    }
+    .TextDasturlash h5:nth-child(3) {
+        margin-left: -200px;
+    }
+    .TextDasturlash h5:nth-child(4) {
+        margin-left: -200px;
+    }
+    .TextDasturlash h5:nth-child(5) {
+        margin-left: -200px;
+    }
+
+    .Context2 {
+        margin-top: -10px;
+        height: 900px;
+        background-color: #EEF2F5;
+    }
+    .text {
+        width: 100%;
+        height: 300px;
+    }
+    .text p:nth-child(1) {
+        margin-left: 100px;
+        margin-top: 180px;
+    }
+    .text p:nth-child(2) {
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+    .text p:nth-child(4) {
+        width: 100%;
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+    .text p:nth-child(5) {
+        width: 100%;
+        /* margin-left: 100px;
+        margin-top: -10px; */
+    }
+    .card {
+        width: 100%;
+        height: 500px;
+        margin-left: -500px;
+        margin-top: 1100px;
+        background-color: #EEF2F5;
+    }
+    .card img {
+        margin-left: 80px;
+    }
+
+    .buttoncard {
+        margin-left: 80px;
+    }
+    .buttoncard1 {
+        margin-left: 110px;
+    }
+    .buttoncard2 {
+        margin-left: 60px;
+    }
+
+
+    .Context3 {
+        /* background-color: #39D7AD; */
+        margin-top: 350px;
+    }
+    .Card01 {
+        width: 100%;
+        height: 500px;
+        /* background-color: #1DD1A1; */
+        margin-top: 600px;
+    }
+    .Card01 img {
+        margin-top: -300px;
+        margin-left: 40px;
+    }
+    .cardcontext {
+        margin-left: 70px;
+        margin-top: -250px;
+    }
+    .Text1 {
+        background-color: #1DD1A1;
+        margin-top: 50px;
+        color: red;
+    }
+}
