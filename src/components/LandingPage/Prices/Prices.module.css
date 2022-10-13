@@ -1,0 +1,185 @@
+.main {
+    padding: 10px 10%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 31.1%;
+    overflow: hidden;
+    margin-top: 49px;
+}
+.card:nth-child(5){
+    margin-top: 0;
+}
+.card:nth-child(3){
+    margin-top: 2.2%;
+}
+.card:nth-child(2){
+    margin-top: 2.3%;
+}
+.card:hover{
+    cursor: pointer;
+}
+.img{
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.body{
+    border: 1px solid #dcdfe5;
+    padding: 15px 20px 20px;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #1f2949;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: start;
+}
+.text p{
+    text-align: start;
+    padding-right:  10%;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #797c7f;
+}
+.text p span{
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #797c7f;
+}
+
+.footer{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dcdfe5;
+    border-top: none;
+    padding: 0;
+}
+.sum{
+    width: 80%;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2949;
+    display: inline-block;
+    padding: 13px;
+    text-align: start;
+    padding: 10px;
+    padding-left: 13px;
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #277add;
+    opacity: 0;
+    transition: all .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 18px;
+    gap: 5px;
+}
+.buy:hover{
+    border: 1px solid #1f2949;
+}
+.buymain{
+    width: 100%;
+    margin-top: 100px;
+    transition: 2s ease;
+    transition-delay: .5s;
+}
+.card:hover .overlay, .buymain{
+    opacity: 1;
+    margin-bottom: 100px;
+}
+.overlay:hover ~ .overlay div{
+    margin-top: 0;
+}
+.strelka{
+    width: 20%;
+    height: 58px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid #dcdfe5;
+    padding: 16px;
+    color: #ff5248;
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.footer button:hover{
+    background-color: #ff5248;
+    color: #fff;
+}
+@media(min-width:768px) and (max-width:1024px){
+    .card{
+        width: 48%;
+    }
+}
+@media(min-width:450px) and (max-width:767px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media(max-width:450px){
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .card{
+        width: 100%;
+    }
+}

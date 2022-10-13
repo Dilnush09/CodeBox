@@ -1,7 +1,15 @@
 import React from 'react'
+import style from "./profile.module.css"
+
+import Profilepage from './profilepage/profilepage'
 
 export default function profile() {
+
+
+
   return (
-    <h1>profile</h1>
+    <div className={style.main}>
+      <Profilepage/>
+    </div>
   )
 }

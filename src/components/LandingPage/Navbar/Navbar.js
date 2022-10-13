@@ -34,7 +34,7 @@ export default function NavbarJs() {
         },
         {
           key: "2",
-          label: <p>Settings</p>
+          label: <p onClick={() => navigate("/profilesettings")}>Settings</p>
         },
         {
           key: "3",
