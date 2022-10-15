@@ -30,27 +30,27 @@ export const navbarMain = [
     private: true,
 
   },
-  // {
-  //   id: 4,
-  //   title: "SignIn",
-  //   path: "/signin",
-  //   Element: <Prices />,
-  //   search: "?",
-  //   hidden: true,
-  //   private: false,
-  //   param:true
-  // },
-  // {
-  //   id: 5,
-  //   title: "SignUp",
-  //   path: "/signup",
-  //   Element: <Prices />,
-  //   search: "?",
-  //   hidden: true,
-  //   private: false,
-  //   param:true
+  {
+    id: 4,
+    title: "SignIn",
+    path: "/signin",
+    Element: <Prices />,
+    search: "?",
+    hidden: true,
+    private: false,
+    param:true
+  },
+  {
+    id: 5,
+    title: "SignUp",
+    path: "/signup",
+    Element: <Prices />,
+    search: "?",
+    hidden: true,
+    private: false,
+    param:true
 
-  // },
+  },
   {
     id: 6,
     title: "Profile",
