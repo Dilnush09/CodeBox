@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .navbar {
     margin-top: 50px;
     width: 100%;
@@ -31,7 +32,8 @@
     background-color: #343434;
     color: #FFF;
 }
-.card{
+
+.card {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -89,13 +91,15 @@
     border: none;
     color: #FFFFFF;
     transition: all 1.3s ease;
-    
+
 }
-.button2 button:hover{
+
+.button2 button:hover {
     background-color: #FFF;
     border: 1px solid #1DD1A1;
     color: #000000;
 }
+
 .cards:nth-child(3) .button2 button {
     background: #1DD1A1;
     border-radius: 4px;
@@ -104,40 +108,52 @@
     color: #FFFFFF;
     transition: all 1.3s ease;
     margin-top: 25px;
-    
+
 }
 
-.cards:nth-child(3) .button2 button:hover{
+.cards:nth-child(3) .button2 button:hover {
     background-color: #FFF;
     border: 1px solid #1DD1A1;
     color: #000000;
 }
-@media(min-width:768px) and (max-width:1024px){
-    .main{
+
+@media(min-width:768px) and (max-width:1024px) {
+    .main {
         padding: 20px;
         font-family: 'Open Sans', sans-serif;
     }
-    .card{
+
+    .card {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cards {
         width: 48%;
     }
 }
-@media(min-width:450px) and (max-width:767px){
-    .card{
+
+@media(min-width:450px) and (max-width:767px) {
+    .cards {
         width: 100%;
     }
 
 }
 
-@media(max-width:450px){
-    .cards {
+@media(max-width:450px) {
+    .card {
         display: flex;
         justify-content: space-between;
         width: 100%;
         align-items: center;
         flex-wrap: wrap;
-    
+
     }
-    .card{
+
+    .cards {
         width: 100%;
     }
 }
