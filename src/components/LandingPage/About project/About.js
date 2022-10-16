@@ -202,7 +202,7 @@ export default function About() {
         </div>
         <div className={style.Text1}>
           <p>03. Yakunlangan dasturlash</p>
-          <p> tiliga tegishli oid fraymvork</p>
+          <p>tiliga tegishli oid fraymvork</p>
           <p>o'rganing.</p> <br/>
           <p>Web, Mobile, Desktop va boshqa yo'nalishlarda</p>
           <p>dasturlash tili imkoniyatlaridan kelib chiqib</p>

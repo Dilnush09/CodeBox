@@ -223,3 +223,20 @@
         margin-left: 200px;
     }
 }
+@media (max-width: 390px) {
+    .Container {
+        height: 250vh;
+        background-color: #EEF2F5;
+    }
+    .TextUser {
+        width: 100%;
+    }
+    .UserStyle {
+        width: 100%;
+        margin-top: -900px;
+        margin-left: 10px;
+    }
+    /* .FirstCircle {
+        background-color: #1DD1A1;
+    } */
+}
