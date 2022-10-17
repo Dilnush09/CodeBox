@@ -1,4 +1,5 @@
 import About from "../LandingPage/About project/About";
+import Darslar from "../LandingPage/Darslar/darslar";
 import Geniric from "../LandingPage/Geniric/Geniric";
 import Prices from "../LandingPage/Prices/Prices";
 import Pragramming from "../LandingPage/Programming languages/Programming";
@@ -78,6 +79,16 @@ export const navbarMain = [
     title: "Statistika",
     path: "/statistika",
     Element: <Lists />,
+    search: "?",
+    hidden: true,
+    private: false,
+    param:true
+
+  },
+   { id:8,
+    title: "Darslar",
+    path: "/darslar",
+    Element: <Darslar />,
     search: "?",
     hidden: true,
     private: false,

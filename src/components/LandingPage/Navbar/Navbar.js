@@ -10,9 +10,6 @@ import user from "./user.svg";
 import { Button, Dropdown, Menu } from "antd";
 
 export default function NavbarJs() {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
-
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -42,6 +39,10 @@ export default function NavbarJs() {
         },
         {
           key: "3",
+          label: <p onClick={() => navigate("/darslar")}>Darslar</p>
+        },
+        {
+          key: "4",
           label: <p onClick={LogOut}>Logout</p>
         }
       ]}
@@ -70,13 +71,9 @@ export default function NavbarJs() {
   return (
     <div className={styles.Wrapper}>
       <div className={styles.Container}>
-      <div className={style.nenu}>
-      <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            </div>
+    
        
-        <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09" className={styles.NavarWrapper} >
+        <div className={styles.NavarWrapper} >
           <div className={styles.Logo}>
             <img src={Logo} />
           </div>

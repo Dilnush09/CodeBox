@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordions{
+    width: 70%;
+    padding: 0 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar h4{
+    font: 20px "Open Sans";
+    color: #212327;
+}
+.card{
+    display: flex;
+    justify-content: start;
+}
+.img{
+    width: 80px;
+    height: 52px;
+    margin-right: 20px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    padding: 20px 12px 10px 15px;
+    border-bottom: 1px solid #dadce0;
+}
+.text{
+    text-align: start;
+}
+.text h6{
+    font: 16px "Open Sans";
+    color: #1f2949;
+}
+.text p{
+    font: 16px "Open Sans";
+    color: #797c7f;
+}
+.savatcha{
+    width: 30%;
+    padding: 30px;
+    margin-top: -15px;
+}
+.savatcha h1{
+    font: 24px "Open Sans";
+    color: #212327;
+    text-align: left;
+}
+.savatcha button{
+    background-color: #0665D8;
+    color: #fff;
+    font: 18px "Open Sans";
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #0665D8;
+}
+.savatcha p{
+    font: 16px "Open Sans";
+    color: #757c8e;
+    text-align: left;
+    align-self: center;
+}
+.panel{
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.collapse{
+    background-color: #fff;
+}
+.savatcha p:hover{
+    color: #0665D8;
+}
+.savatcha button:hover{
+    background-color: #004daa;
+    cursor: pointer;
+}
+[data-theme='compact'] .collapse .panel{
+  margin-bottom: 24px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 2px;
+}
