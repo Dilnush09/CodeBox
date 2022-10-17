@@ -2,6 +2,8 @@ import About from "../LandingPage/About project/About";
 import Geniric from "../LandingPage/Geniric/Geniric";
 import Prices from "../LandingPage/Prices/Prices";
 import Pragramming from "../LandingPage/Programming languages/Programming";
+import SignUp from "../LandingPage/Registration/SigUp";
+import SinUp from "../LandingPage/Registration/SigUp";
 import Lists from "../ProfilePage/Course Lists/lists";
 import Profile from "../ProfilePage/profile";
 import ProfileSettings from "../ProfilePage/Profile Settings/settings";
@@ -44,7 +46,7 @@ export const navbarMain = [
     id: 5,
     title: "SignUp",
     path: "/signup",
-    Element: <Prices />,
+    Element: <SignUp />,
     search: "?",
     hidden: true,
     private: false,
