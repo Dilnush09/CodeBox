@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .accordions{
     width: 70%;
@@ -98,4 +99,64 @@
   overflow: hidden;
   background: #fff;
   border-radius: 2px;
+}
+@media(min-width:768px) and (max-width:1024px){
+    .main{
+        width: 100%;
+        padding: 40px 0;
+    }
+}
+@media(max-width:767px){
+    .main{
+        width: 100%;
+        padding: 40px 10%;
+        display: block;
+ 
+        flex-wrap: wrap;
+    }
+    .accordions{
+        width: 100%;
+    }
+    .savatcha{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sss{
+        width: 50%;
+    }
+    .sss h1{
+        text-align: center;
+    }
+    .sss p{
+        text-align: center;
+    }
+}
+@media(max-width: 500px){
+    .main{
+        width: 100%;
+        padding: 40px 10%;
+        display: block;
+ 
+        flex-wrap: wrap;
+    }
+    .accordions{
+        width: 100%;
+    }
+    .savatcha{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sss{
+        width: 90%;
+    }
+    .sss h1{
+        text-align: center;
+    }
+    .sss p{
+        text-align: center;
+    }
 }

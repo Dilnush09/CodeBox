@@ -103,12 +103,14 @@ function Darslar() {
         </div>
       </div>
       <div className={style.savatcha}>
+        <div className={style.sss}>
         <h1>247,000 UZS</h1>
           <button>Savatchaga qo'shish</button>
           <hr />
           <p>
             <RiShareForwardLine size={22}/> Ulashish
           </p>
+        </div>
       </div>
     </div>
   )
